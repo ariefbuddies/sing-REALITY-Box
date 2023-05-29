@@ -207,7 +207,7 @@ listen_port=${listen_port:-443}
 
 # Ask for server name (sni)
 read -p "Enter server name/SNI (default: telewebion.com): " server_name
-server_name=${server_name:-telewebion.com}
+server_name=${server_name:-www.ruangguru.com}
 
 # Retrieve the server IP address
 server_ip=$(curl -s https://api.ipify.org)
